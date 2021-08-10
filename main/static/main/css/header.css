@@ -1,0 +1,48 @@
+.page-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header-stand {
+    background-color: #252525;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.navbar-nav, .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 1.5rem;
+}
+
+.nav-link {
+    padding: 8px 0;
+    color: #e0dfdf;
+}
+
+.nav-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.brand-logo {
+    font-size: 30px;
+}
+
+.navbar-call {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+}
