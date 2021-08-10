@@ -1,0 +1,15 @@
+# Database
+db.sqlite3
+
+# Python
+__pycache__
+
+# PyCharm
+.idea
+
+# VSCode
+.vscode
+
+# Enviroments
+.env
+venv
