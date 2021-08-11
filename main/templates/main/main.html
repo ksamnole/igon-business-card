@@ -10,22 +10,27 @@
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/header.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/page-main.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/insert.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/page-2.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/page-contact.css' %}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="{% static 'main/js/header-stand.js' %}" ></script>
 </head>
 
 <body>
     {% include 'main/partials/header.html' %}
-    <section class="page-main"></section>
+    {% include 'main/pages/page-main.html' %}
+    {% include 'main/inserts/insert-1.html' %}
+    <section id="about" class="page-2"></section>
     <section class="page-contact"></section>
     <!-- <style>
         .page-main {
-            background-image: url("{% static 'main/img/1.png' %}");
+            background-image: url("{% static 'main/img/bg-page-main.jpg' %}");
         }
     </style> -->
+    <script src="{% static 'main/js/header-stand.js' %}"></script>
+    <script src="{% static 'main/js/scrollTo.js' %}"></script>
 </body>
 
 </html>

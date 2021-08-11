@@ -1,0 +1,32 @@
+.insert {
+    background-color: #fff;
+    display: flex;
+    font-size: 20px;
+}
+
+.insert a {
+    color: #000;
+}
+
+.insert .container {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    margin: auto;
+}
+
+.insert .item-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.insert .item-text {
+    color: #000;
+    padding-top: 100px;
+}
+
+.insert .to-form {
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+}

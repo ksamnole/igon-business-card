@@ -1,4 +1,43 @@
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
 .page-main {
     min-height: 100vh;
     background-color: #121212;
+    display: flex;
 }
+
+.page-main .container {
+    display: grid;
+    grid-template-columns: 600px 300px;
+    column-gap: 100px;
+    margin: auto;
+}
+
+.page-main .item:nth-of-type(1) {
+    padding-left: 50px;
+}
+
+.page-main .item:nth-of-type(2) {
+    padding-right: 50px;
+}
+
+.page-main .item-header {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+/* .page-main .form-contact {
+    height: 100%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.page-main .contact-title {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+} */
