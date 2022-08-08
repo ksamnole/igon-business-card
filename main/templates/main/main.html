@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="{% static 'main/css/page-main.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/insert.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/page-2.css' %}">
-    <link rel="stylesheet" href="{% static 'main/css/page-contact.css' %}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -22,8 +21,50 @@
     {% include 'main/partials/header.html' %}
     {% include 'main/pages/page-main.html' %}
     {% include 'main/inserts/insert-1.html' %}
-    <section id="about" class="page-2"></section>
-    <section class="page-contact"></section>
+    <section id="about" class="page-2">
+        <div class="container">
+            <div class="item">
+                <h1>Redovisning & administration</h1>
+                <div class="item-text">
+                    <h3>Redovisning</h3>
+                    <p>Du är specialist på ditt företags verksamhet – vårt specialområde är siffrorna och deras
+                        förhållande till din verksamhet. Du väljer vilka delar av redovisningen du vill sköta själv och
+                        vilka delar vi kan hjälpa dig med. Vi hjälper med bokföring och administrativa tjänster hos oss
+                        eller på plats hos dig.</p>
+                </div>
+                <div class="item-text">
+                    <h3>Administration</h3>
+                    <p>Tjänsten omfattar allt från hantering av leverantörs- och kundfakturor, posthanteing samt
+                        betalning av räkningar till lösningar som omfattar ansvaret för hela administrationen i ditt
+                        företag.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{% static 'main/img/reading-report.jpg' %}" alt="reading">
+            </div>
+        </div>
+        <div class="container">
+            <div class="item">
+                <img src="{% static 'main/img/business-concept.jpg' %}" alt="reading">
+            </div>
+            <div class="item">
+                <h1>Redovisning & administration</h1>
+                <div class="item-text">
+                    <h3>Redovisning</h3>
+                    <p>Du är specialist på ditt företags verksamhet – vårt specialområde är siffrorna och deras
+                        förhållande till din verksamhet. Du väljer vilka delar av redovisningen du vill sköta själv och
+                        vilka delar vi kan hjälpa dig med. Vi hjälper med bokföring och administrativa tjänster hos oss
+                        eller på plats hos dig.</p>
+                </div>
+                <div class="item-text">
+                    <h3>Administration</h3>
+                    <p>Tjänsten omfattar allt från hantering av leverantörs- och kundfakturor, posthanteing samt
+                        betalning av räkningar till lösningar som omfattar ansvaret för hela administrationen i ditt
+                        företag.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- <style>
         .page-main {
             background-image: url("{% static 'main/img/bg-page-main.jpg' %}");

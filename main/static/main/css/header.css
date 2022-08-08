@@ -46,3 +46,9 @@
     color: #000;
     background-color: #fff;
 }
+
+@media only screen  and (max-width: 1220px) {
+    .navbar-nav {
+        display: none;
+    }
+}

@@ -9,19 +9,20 @@
 }
 
 .insert .container {
+    max-width: 1240px;
+    justify-items: center;
     display: grid;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 1fr 1fr;
     margin: auto;
 }
 
-.insert .item-img img {
+.insert img {
     max-width: 100%;
-    height: auto;
 }
 
 .insert .item-text {
     color: #000;
-    padding-top: 100px;
+    padding: 100px 20px 20px 20px;
 }
 
 .insert .to-form {
@@ -29,4 +30,24 @@
     border: 2px solid #000;
     border-radius: 30px;
     padding: 10px 20px;
+}
+
+@media only screen  and (max-width: 1220px) {
+    .insert .container {
+        max-width: 960px;
+     }
+}
+
+@media only screen  and (max-width: 768px) {
+    .insert .container {
+        grid-template-columns: 1fr;
+        max-width: 960px;
+    }
+}
+
+@media only screen  and (max-width: 500px) {
+    .insert .container {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+     }
 }
